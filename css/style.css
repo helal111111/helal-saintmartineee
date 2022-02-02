@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    width: 100%;
+}
+.first{
+    color: #fe5c24;
+    margin-right: 20px;
+}
+.top-header{
+    background-color: #efefff;
+    font-size: 14px;
+    padding: 14px 0px;
+    color: #212529;
+}
+.top-left{
+    text-align: left;
+}
+.top-left a{
+    font-size: 14px;
+    margin-right: 16px;
+    color: #212529;
+}
+.top-left a:hover{
+    color: #fe5c24;
+}
+.top-right{
+    text-align: right;
+}
+.top-right ul li{
+    list-style: none;
+    display: inline-block;
+}
+.top-right ul li a{
+    font-size: 14px;
+    margin-left: 16px;
+    color: #212529;
+}
+.top-right ul li a:hover{
+    color: #fe5c24;
+}
+.top-right span{
+    font-size: 14px;
+    color: #212529;
+    margin-left: 32px;
+}
+.top-right span i{
+    font-size: 14px;
+    color: #212529;
+    margin-right: 4px;
+    color: #fe5c24;
+}
+.nav-item{
+    color: #0c3e72 !important;
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+    text-transform: capitalize;
+}
+.active{
+    color: #fe5c24 !important;
+}
+.nav-item{
+    margin: 0px 16px;
+}
+.btn{
+    border-radius: 0;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    transition: .5s;
+    background-color: #fe5c24;
+    font-weight: 500;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #2493e0
+}
+/* banner code css */
+.banner{
+    width: 100%;
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.col-md-8{
+    text-align: center;
+    margin-top: 160px;
+}
+.col-md-8 h1{
+    font-size: 70px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 900
+}
+.col-md-8 p{
+    font-size: 24px;
+    color: #fff;
+    line-height: 28px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.btn-1{
+    border-radius: 0;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    transition: .5s;
+    margin-top: 60px;
+    background-color: #2493e0;
+    padding: 23px 79px;
+}
+.btn-1:hover{
+    background-color: #fe5c24;
+    color: #fff;
+}
+/* search section css */
+.search{
+    width: 100%;
+}
+.search .search-box{
+    margin-top: -100px;
+    background-color: #fff;
+}
+.search .search-box .tab-option{
+    padding: 40px;
+   
+}
+.search .search-box .tab-option ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 2rem;
+}
+.search.search-box.tab-content{
+    color: #fff;
+    box-shadow: 0 10px 40px 0 rgb(221 221 221 / 30%);
+    padding: 40px;
+}
+.tab-content form{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+.tab-content .from-div{
+    position: relative;
+    flex-basis: 20% ;
+}
+.tab-content .from-div .from-field{
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #2493e0;
+    color: #2493e0;
+    background-color: transparent;
+
+}
+.tab-content .from-div .from-field::placeholder{
+    color: #2493e0;
+}
+.from-div i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+.tab-content .from-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 0;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    transition: .5s;
+    background-color: #fe5c24;
+    font-weight: 500;
+}
+.tab-option ul li{
+    padding: 30px 0px;
+    position: relative;
+}
+.tab-option ul li line{
+    height: 2px;
+    width: 100%;
+    background-color: #2493e0 !important;
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
